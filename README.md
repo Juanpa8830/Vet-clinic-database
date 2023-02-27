@@ -1,17 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
 <a name="readme-top"></a>
 
 <!--
@@ -63,31 +49,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet_Clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Vet_Clinic]** is a database wich allows users to insert information about animals where they can include id, name, date of birth, escape attempts, weight ... etc, and all of this information is stored in a table that they can update or consult anytime.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
@@ -102,9 +72,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Inside the database, there is a table called 'Animals' where information can be stored]**
+- **[Users can update the information about any animal anytime]**
+- **[Users can also search by specific information and all the data is going to be displayed according with the request]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
