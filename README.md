@@ -110,7 +110,7 @@ psql -U username -f queries.sql
 
 👤 **Juan Pablo Guerrero Rios**
 
-- GitHub: [@githubhandle](https://github.com/Juanpa8830)
+- GitHub: [@Juanpa8830](https://github.com/Juanpa8830)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juanpabloguerrerorios/)
 
 
