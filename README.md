@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./vetlogo.png" alt="logo" width="256"  height="auto" />
+  <img src="./vetlogo.PNG" alt="logo" width="256"  height="auto" />
   <br/>
 
   <h3><b>VET CLINIC</b></h3>
@@ -110,7 +110,7 @@ psql -U username -f queries.sql
 
 👤 **Juan Pablo Guerrero Rios**
 
-- GitHub: [@githubhandle](https://github.com/Juanpa8830)
+- GitHub: [@Juanpa8830](https://github.com/Juanpa8830)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juanpabloguerrerorios/)
 
 
