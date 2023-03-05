@@ -15,3 +15,7 @@ create table specializations(specie_id int references species(id), vet_id int re
 create table visits (animal_id int references animals(id), vets_id int references vets(id), date_of_visit date);
 
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX animal_visits ON visits(animal_id ASC);
+CREATE INDEX vets_visits ON visits(vets_id ASC);
+CREATE INDEX owners_email ON owners(email ASC);
