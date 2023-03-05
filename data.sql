@@ -31,7 +31,7 @@ insert into vets(name, age, date_of_graduation) values ('William Tatcher', 45, '
 
 insert into specializations (specie_id, vet_id) values (1,1),(1,3),(2,3),(2,4);
 
-vet_clinic=# insert into visits(animal_id, vets_id, date_of_visit) values (1,1,'2020-05-24'),
+insert into visits(animal_id, vets_id, date_of_visit) values (1,1,'2020-05-24'),
 (1,3,'2020-07-22'),
 (2,4,'2021-02-02'),
 (3, 2, '2020-01-05'),
