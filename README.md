@@ -36,7 +36,12 @@
 
 **Vet_Clinic** is a relational database wich allows users to insert information about animals where they can include id, name, date of birth, escape attempts, weight ... etc, and all of this information is stored in a table that they can update or consult anytime.
 
+
 ## 🛠 Built With <a name="built-with"></a>
+
+## 🛠 Schema Diagram <a name="Schema diagram"></a>
+
+<img src="./schema.PNG" alt="schema" />
 
 ### Tech Stack <a name="tech-stack"></a>
 
