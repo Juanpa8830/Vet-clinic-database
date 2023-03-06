@@ -14,7 +14,12 @@ create table invoices(id int generated always as identity, total_amount decimal,
 medical_history_id integer, primary key(id));
 
 
-
+create index pat_id on medical_histories(patien_id asc);
+create index medical_hist_id on invoices(medical_history_id asc);
+create index inv_id on invoice_items(invoice_id asc);
+create index treat_id on invoice_items(treatment_id asc);
+create index med_history_id on med_treatments(med_hist_id asc);
+create index treatm_id on med_treatments(teratments_id asc);
 
 
 
