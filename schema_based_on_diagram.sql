@@ -13,7 +13,8 @@ invoice_id int references invoices(id), treatment_id int references treatments(i
 create table invoices(id int generated always as identity, total_amount decimal, generated_at timestamp, payed_at timestamp,
 medical_history_id integer, primary key(id));
 
--- create table juan's code
+create table med_treatments(med_hist_id int references medical_histories(id), treatments_id int references treatments(id),
+primary key(med_hist_id, treatments_id));
 
 create index pat_id on medical_histories(patien_id asc);
 create index medical_hist_id on invoices(medical_history_id asc);
